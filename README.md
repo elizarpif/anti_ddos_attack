@@ -3,7 +3,7 @@
 Created with [ProshNad](https://github.com/ProshNad)
 
 ## Main idea
-Send chunked requests with some timeout. Will connection closed or not? If not, we will try to create 3000+ clients and start them to send those requests
+Send chunked requests with some timeout. Will connection be closed or not? If not, we will try to create 3000+ clients and start sending them those requests
 
 We have such message:
 
