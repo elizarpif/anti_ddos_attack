@@ -198,5 +198,5 @@ total errCount 2999
 total goodCount 0
 ```
 
-### Conclusion
+## Conclusion
 It seems that the server has timeout for getting full chunked request. With timeout increasing between chunks errors count are increasing. Different results in the same test mean that by means of asynchrony, some requests are executed quickly, and some are longer than expected. therefore, some fall under the time limit, while others do not. As the timeout increases, there are more and more errors.
