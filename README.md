@@ -18,6 +18,9 @@ msg := []string{"POST / HTTP/1.1\r\n" +
     "\r\n",
 }
 ```
+
+All chunks will be sent with timeout between them
+
 ## Results
 
 ### Send 1 chunked request with timeout between chunks
